@@ -68,22 +68,28 @@ This will start the app at http://localhost:3000 in your browser.
 
  1. Clone the backend repository (if it's separate):
 
-  ```bash
-   git clone https://github.com/your-username/delishbites-backend.git
+    ```bash
+    git clone https://github.com/your-username/delishbites-backend.git
 
  2. Navigate to the backend directory and install dependencies:
 
-  ```bash
-   cd delishbites-backend
-   npm install
+    ```bash
+    cd delishbites-backend
+    npm install
 
  3. Start the backend server:
 
-  ```bash
+    ```bash
 
-   npm start
-   The backend should be running at http://localhost:5000.
+    npm start
+    The backend should be running at http://localhost:5000.
 
  4. Update the Axios API call in the frontend to point to your local backend during development:
 
     const response = await axios.post('http://localhost:5000/submit', formData);
+
+
+### Usage 
+ Homepage: View the hero section with the logo and CTA button.
+ Service Section: Explore the services offered with interactive images.
+ Order Modal: Click the "Order Now" button to open the modal and place an order. The form data is submitted to the backend API hosted on Render.
