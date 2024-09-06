@@ -60,3 +60,30 @@ To get a local copy up and running, follow these steps:
    ```bash
    npm start
 This will start the app at http://localhost:3000 in your browser.
+
+
+### Backend Setup (Optional for Local Development)
+
+ To run the backend locally, follow these steps:
+
+ 1. Clone the backend repository (if it's separate):
+
+  ```bash
+   git clone https://github.com/your-username/delishbites-backend.git
+
+ 2. Navigate to the backend directory and install dependencies:
+
+  ```bash
+   cd delishbites-backend
+   npm install
+
+ 3. Start the backend server:
+
+  ```bash
+
+   npm start
+   The backend should be running at http://localhost:5000.
+
+ 4. Update the Axios API call in the frontend to point to your local backend during development:
+
+    const response = await axios.post('http://localhost:5000/submit', formData);
