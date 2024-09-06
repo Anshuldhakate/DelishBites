@@ -2,6 +2,13 @@
 
 Welcome to the **DelishBites** website repository! This project features a modern, responsive website for a food delivery service. Built using React and Chakra UI, the site showcases a hero section, service offerings, and a contact form with a modal for ordering. The backend is hosted on Render and integrated using Axios for API requests.
 
+## Deployed Link-
+https://bright-brigadeiros-9cba10.netlify.app
+
+<img width="944" alt="Screenshot 2024-09-06 215747" src="https://github.com/user-attachments/assets/2fa4bd8b-08ae-40ef-96cb-7e18bef90b8d">
+
+
+
 ## Features
 
 - **Hero Section**: Eye-catching hero section with a responsive background image and animated logo.
