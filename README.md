@@ -90,6 +90,6 @@ This will start the app at http://localhost:3000 in your browser.
 
 
 ### Usage 
- Homepage: View the hero section with the logo and CTA button.
- Service Section: Explore the services offered with interactive images.
- Order Modal: Click the "Order Now" button to open the modal and place an order. The form data is submitted to the backend API hosted on Render.
+ 1. Homepage: View the hero section with the logo and CTA button.
+ 2. Service Section: Explore the services offered with interactive images.
+ 3. Order Modal: Click the "Order Now" button to open the modal and place an order. The form data is submitted to the backend API hosted on Render.
